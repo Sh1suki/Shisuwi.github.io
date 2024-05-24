@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Check out</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Logo/bigfoot.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="Logo/bigfoot.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <h3 id="checkHead">Checkout</h3>
+    </header>
+    <main>
+        <button type="button" id="goback"><a href="index.html">Go Back</a></button>
+        <div class="rectangle"></div>
+        <section>
+            <!-- Shop name section -->
+            <section class="shopName">
+                <h2>Shop Name</h2>
+                <a href="#"><img src="../Image/Outdoor/5L outdoor Camping Waterbag.jpg" alt="Example only" id="sampleImage"></a>
+                <section class="itemDescription">
+                    <p id="itemDescribe">Item Description</p>
+                    <p>42x12x12cm/yellow/1pcs</p>
+                </section>
+            </section>
+
+            <section class="voucher">
+                <!-- Shop vouchers -->
+                <p>Shop Voucher</p>
+            </section>
+            <section class="recommendation">
+                <!-- Recommend item Or Similar product -->
+                <p>"You Might Like These Products"</p>
+            </section>
+            <section class="shippingOption">
+                <h3>Shipping Option</h3>
+                <div class="choices">
+                    <div class="choiceButton" id="standardBtn">
+                        <form action="/action_page.php" id="stdForm">
+                            <input type="checkbox" id="shipping1" name="shipping1" value="Standard">
+                            <label for="shipping1">Standard Local  PHP 100.00</label><br>
+                            <input type="checkbox" id="shipping2" name="shipping1" value="Lightning">
+                            <label for="shipping2">Lightning Delivery  PHP 500.00</label><br>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="address">
+                    <div class="addressmo">
+                        <p>Address: "Pio highway, Porac, 2008 Pampanga"</p>
+                    </div>
+                </div>
+                <section class="paymentMethodandChoices">
+                    <!-- Payment method section -->
+                    <section class="paymentMethod">
+                        <h3 id="payment">Payment Method</h3>
+                        <div class="paymentOption">
+                            <div class="paymentChoices">
+                                <form action="/action_page.php">
+                                    <input type="checkbox" id="Payment1" name="Payment1" value="Gcash">
+                                    <label for="Payment1">Gcash </label><br>
+                                    <input type="checkbox" id="Payment2" name="Payment2" value="Paypal">
+                                    <label for="Payment2">Paypal </label><br>
+                                    <input type="checkbox" id="Payment3" name="Payment3" value="Paymaya">
+                                    <label for="Payment3">Paymaya </label><br>
+                                    <input type="checkbox" id="Payment4" name="Payment4" value="Payment Center">
+                                    <label for="Payment4">Payment Center</label><br>
+                                    <input type="checkbox" id="Payment5" name="Payment5" value="Online banking">
+                                    <label for="Payment5">Online Banking</label><br>
+                                    <input type="checkbox" id="Payment6" name="Payment6" value="Visa">
+                                    <label for="Payment6">Visa</label><br>
+                                </form>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="paymentDetails">
+                        <div class="paymentInfo">
+                            <h4>Payment Details</h4>
+                            <p>Merchandise Subtotal </p>
+                            <p>Shipping Subtotal </p>
+                            <p>Voucher Discount </p>
+                            <p>Total Payment </p>
+                            <button type="button" id="checkoutBTN">Check out!</button>
+                            
+                        </div>
+                    </section>
+                </section>
+            </section>
+        </section>
+    </main>
+</body>
+</html>
